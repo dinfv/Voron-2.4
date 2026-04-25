@@ -96,7 +96,7 @@
           "material": "ABS",
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
-          "remaining_weight_g": 110.20050811767578,
+          "remaining_weight_g": 97.18817901611328,
           "spool_name": "GTMAX3D ABS - ABS Premium Preto",
           "spoolman_id": 2,
           "total_weight_g": 1000.0
@@ -550,6 +550,10 @@
   "telemetry_enabled": false,
   "theme": {
     "preset": 0
+  },
+  "tour": {
+    "completed": true,
+    "last_seen_version": 1
   },
   "ui": {
     "cached_grid": {
