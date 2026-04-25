@@ -164,7 +164,7 @@
             "temperature_sensor cartographer_coil",
             "temperature_sensor cartographer"
           ],
-          "timestamp": "2026-04-25T16:52:50Z"
+          "timestamp": "2026-04-25T16:55:13Z"
         },
         "optional": []
       },
@@ -522,6 +522,7 @@
           ]
         }
       },
+      "printer_name": "Voron 2.4",
       "probe_sensors": {
         "sensors": null
       },
