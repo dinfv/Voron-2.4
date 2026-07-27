@@ -13,7 +13,7 @@
     "gpu_3d_blocked": false,
     "gpu_blur_blocked": false,
     "rotate": 0,
-    "sleep_sec": 0,
+    "sleep_sec": 600,
     "theme": "midnight",
     "time_format": 1,
     "timezone": "America/Sao_Paulo"
