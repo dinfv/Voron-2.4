@@ -177,9 +177,28 @@
         "hotend": "extruder"
       },
       "leds": {
+        "color_presets": [
+          "#FFFFFF",
+          "#FFD700",
+          "#FF6B35",
+          "#4FC3F7",
+          "#FF4444",
+          "#66BB6A",
+          "#9C27B0",
+          "#00BCD4"
+        ],
+        "last_brightness": 100,
+        "last_color": "#FFFFFF",
+        "last_white": 0.0,
+        "led_on_at_start": false,
+        "macro_devices": [],
         "selected": [
           "neopixel caselight"
         ],
+        "selected_strips": [
+          "neopixel caselight"
+        ],
+        "startup_brightness": 80,
         "strip": "neopixel caselight"
       },
       "moonraker_api_key": false,
