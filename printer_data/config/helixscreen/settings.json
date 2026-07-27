@@ -3,6 +3,7 @@
   "appearance": {
     "toolhead_style": 2
   },
+  "completion_alert": 1,
   "config_version": 20,
   "dark_mode": true,
   "display": {
