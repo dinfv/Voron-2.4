@@ -197,7 +197,7 @@
             },
             "idle": {
               "action": "color",
-              "brightness": 50,
+              "brightness": 100,
               "color": "#FFFFFF"
             },
             "paused": {
