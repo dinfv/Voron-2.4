@@ -177,6 +177,41 @@
         "hotend": "extruder"
       },
       "leds": {
+        "auto_state": {
+          "enabled": false,
+          "mappings": {
+            "complete": {
+              "action": "color",
+              "brightness": 100,
+              "color": "#66BB6A"
+            },
+            "error": {
+              "action": "color",
+              "brightness": 100,
+              "color": "#FF0000"
+            },
+            "heating": {
+              "action": "color",
+              "brightness": 100,
+              "color": "#FFD700"
+            },
+            "idle": {
+              "action": "color",
+              "brightness": 50,
+              "color": "#FFFFFF"
+            },
+            "paused": {
+              "action": "color",
+              "brightness": 50,
+              "color": "#FFD700"
+            },
+            "printing": {
+              "action": "color",
+              "brightness": 100,
+              "color": "#FFFFFF"
+            }
+          }
+        },
         "color_presets": [
           "#FFFFFF",
           "#FFD700",
