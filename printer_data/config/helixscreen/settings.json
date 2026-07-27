@@ -518,6 +518,7 @@
       "probe_sensors": {},
       "temp_sensors": {
         "bed": "heater_bed",
+        "chamber": "temperature_sensor Cabine",
         "hotend": "extruder"
       },
       "type": "Voron 2.4",
