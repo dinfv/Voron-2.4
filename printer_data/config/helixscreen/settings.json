@@ -225,7 +225,7 @@
         "last_brightness": 100,
         "last_color": "#FFFFFF",
         "last_white": 0.0,
-        "led_on_at_start": true,
+        "led_on_at_start": false,
         "macro_devices": [],
         "selected": [
           "neopixel caselight"
