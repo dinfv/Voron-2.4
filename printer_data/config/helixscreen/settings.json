@@ -166,7 +166,10 @@
           ],
           "timestamp": "2026-07-27T02:26:30Z"
         },
-        "optional": []
+        "optional": [
+          "temperature_fan _Fan_1",
+          "temperature_fan _Fan_2"
+        ]
       },
       "heaters": {
         "bed": "heater_bed",
