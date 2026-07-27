@@ -83,7 +83,7 @@
       "extra_sensors": {},
       "fans": {
         "chamber": "heater_fan Nevermore",
-        "exhaust": "None",
+        "exhaust": "",
         "hotend": "heater_fan hotend_fan",
         "part": "fan"
       },
