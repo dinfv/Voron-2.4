@@ -178,7 +178,7 @@
       },
       "leds": {
         "auto_state": {
-          "enabled": false,
+          "enabled": true,
           "mappings": {
             "complete": {
               "action": "color",
