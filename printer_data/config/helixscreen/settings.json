@@ -586,7 +586,8 @@
         "hotend": "extruder"
       },
       "type": "Voron 2.4",
-      "wizard_completed": true
+      "wizard_completed": true,
+      "z_movement_style": 2
     },
     "show_printer_switcher": false
   },
