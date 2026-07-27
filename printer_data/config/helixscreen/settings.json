@@ -1,6 +1,6 @@
 {
   "active_printer_id": "default",
-  "config_version": 14,
+  "config_version": 20,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
@@ -9,6 +9,8 @@
     "drm_device": "",
     "gcode_3d_enabled": true,
     "gcode_render_mode": 0,
+    "gpu_3d_blocked": false,
+    "gpu_blur_blocked": false,
     "rotate": 0,
     "sleep_sec": 0,
     "time_format": 1
@@ -25,6 +27,7 @@
       "d": 0.018900444731116295,
       "e": 0.9570497870445251,
       "f": 5.102659225463867,
+      "recheck_pending": false,
       "valid": true
     },
     "jitter_threshold": 5,
@@ -33,9 +36,6 @@
     "touch_device": ""
   },
   "language": "pt",
-  "led": {
-    "selected_strips": null
-  },
   "log_path": "/tmp/helixscreen.log",
   "motion": {
     "jog_mode": 1
@@ -173,17 +173,9 @@
         "hotend": "extruder"
       },
       "leds": {
-        "color_presets": null,
-        "last_brightness": null,
-        "last_color": null,
-        "last_white": null,
-        "led_on_at_start": null,
-        "macro_devices": null,
         "selected": [
           "neopixel caselight"
         ],
-        "selected_strips": null,
-        "startup_brightness": null,
         "strip": "neopixel caselight"
       },
       "moonraker_api_key": false,
@@ -523,9 +515,7 @@
         }
       },
       "printer_name": "Voron 2.4",
-      "probe_sensors": {
-        "sensors": null
-      },
+      "probe_sensors": {},
       "temp_sensors": {
         "bed": "heater_bed",
         "hotend": "extruder"
