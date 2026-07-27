@@ -170,6 +170,7 @@
       },
       "heaters": {
         "bed": "heater_bed",
+        "chamber": "none",
         "hotend": "extruder"
       },
       "leds": {
